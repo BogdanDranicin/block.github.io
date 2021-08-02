@@ -1,12 +1,15 @@
 html {
     font-size: 50px;
+    height: 100%;
 }
 
 body {
+    min-height: 100%;
     margin: 0;
     font: 1.6rem/2rem sans-serif;
     display: flex;
-    padding-top: 40vh;
+    align-items: center;
+    justify-content: center;
 }
 
 div {
