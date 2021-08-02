@@ -12,27 +12,27 @@ body {
 div {
     margin: auto;
     position: relative;
+    padding: 55px 80px;
 }
 
 div:before {
     content: '';
+    height: calc(100% - 10px);
+    width: 150%;
+    left: -25%;
+    top: 0;
     position: absolute;
-    width: 470px;
-    height: 170px;
-    left: -157px;
-    top: -40px;
-    border-top: 7px solid #bdbdbd;
-    border-bottom: 7px solid #bdbdbd;
+    border-top: 5px solid #bdbdbd;
+    border-bottom: 5px solid #bdbdbd;
 }
 
 div:after {
     content: '';
     position: absolute;
-    width: 408px;
-    height: 274px;
-    right: -116px;
-    transform: rotate(90deg);
-    top: -90px;
-    border-top: 7px solid #bdbdbd;
-    border-bottom: 7px solid #bdbdbd;
+    width: calc(100% - 10px);
+    height: 150%;
+    top: -25%;
+    left: 0;
+    border-left: 5px solid #bdbdbd;
+    border-right: 5px solid #bdbdbd;
 }
