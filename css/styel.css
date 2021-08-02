@@ -17,11 +17,11 @@ div {
 
 div:before {
     content: '';
-    height: calc(100% - 10px);
-    width: 150%;
-    left: -25%;
-    top: 0;
     position: absolute;
+    bottom: 0;
+    top: 0;
+    left: -100px;
+    right: -100px;
     border-top: 5px solid #bdbdbd;
     border-bottom: 5px solid #bdbdbd;
 }
@@ -29,10 +29,10 @@ div:before {
 div:after {
     content: '';
     position: absolute;
-    width: calc(100% - 10px);
-    height: 150%;
-    top: -25%;
+    bottom: -100px;
+    top: -100px;
     left: 0;
+    right: 0;
     border-left: 5px solid #bdbdbd;
     border-right: 5px solid #bdbdbd;
 }
