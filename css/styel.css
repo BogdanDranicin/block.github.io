@@ -12,7 +12,7 @@ body {
 div {
     margin: auto;
     position: relative;
-    padding: 70px 150px;
+    padding: 65px 160px;
 }
 
 div:before {
@@ -22,18 +22,18 @@ div:before {
     height: 100%;
     left: 0;
     top: 0;
-    border-top: 5px solid rgba(58, 58, 58, .3);
-    border-bottom: 5px solid rgba(58, 58, 58, .3);
+    border-top: 5px solid #bdbdbd;
+    border-bottom: 5px solid #bdbdbd;
 }
 
 div:after {
     content: '';
     position: absolute;
-    width: 100%;
-    height: 100%;
-    right: 0;
+    width: 90%;
+    height: 123%;
+    right: 20px;
     transform: rotate(90deg);
-    top: 0;
-    border-top: 7px solid rgba(58, 58, 58, .3);
-    border-bottom: 7px solid rgba(58, 58, 58, .3);
+    top: -31px;
+    border-top: 7px solid #bdbdbd;
+    border-bottom: 7px solid #bdbdbd;
 }
