@@ -12,28 +12,27 @@ body {
 div {
     margin: auto;
     position: relative;
-    padding: 65px 160px;
 }
 
 div:before {
     content: '';
     position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    border-top: 5px solid #bdbdbd;
-    border-bottom: 5px solid #bdbdbd;
+    width: 470px;
+    height: 170px;
+    left: -157px;
+    top: -40px;
+    border-top: 7px solid #bdbdbd;
+    border-bottom: 7px solid #bdbdbd;
 }
 
 div:after {
     content: '';
     position: absolute;
-    width: 90%;
-    height: 123%;
-    right: 20px;
+    width: 408px;
+    height: 274px;
+    right: -116px;
     transform: rotate(90deg);
-    top: -31px;
+    top: -90px;
     border-top: 7px solid #bdbdbd;
     border-bottom: 7px solid #bdbdbd;
 }
